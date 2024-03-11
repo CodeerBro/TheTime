@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: dash-display;
+    src: url('dash_digital-7.ttf') format('woff2')
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+
+
+    color:rgb(240, 245, 249);
+    display: flex;
+    justify-content: center;
+
+
+    background-image: url("fordev.png") ;
+    
+   
+    margin-top: 21vh;
+    font-weight: 700;
+   
+    /* background things */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+
+
+    
+
+    
+
+}
+#clock{
+    font-size: 100px;
+    font-weight: 700;
+    box-shadow: 0 8px 32px 0 #00000050;
+    padding:20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    background: linear-gradient(125deg, rgba(255,255,255, 0.1),rgba(255,255,255,0.3));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    text-shadow: -1px 4px 3px rgba(50, 47, 47, 0.2);
+    transition:  0.5s;
+    margin-top: 25vh;
+
+    
+
+    
+
+    
+
+    
+}
+.banner{
+    font-size: 100px;
+    text-transform: uppercase;
+    align-items: center;
+    margin-bottom: 30%;
+    padding-left: 21px;
+    text-shadow: -1px 4px 3px rgba(36, 35, 35, 0.1);
+
+  
+
+
+}
